@@ -13,7 +13,7 @@ public class HomeController {
 @GetMapping("hello") // localhost:8080/hello
 public String sayHello()
 {
-return "<h1>hello spring</h1>";	
+return "<h1>hello world</h1>";	
 }
 @GetMapping("hi")
 public String sayHi(@RequestParam(required = false,defaultValue = "") String nom,@RequestParam(required = false,defaultValue = "") String prenom)
